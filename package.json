@@ -1,0 +1,27 @@
+{
+  "name": "rxjs-simplified",
+  "version": "1.0.0",
+  "description": "Rxjs playground for learning rxjs observables",
+  "main": "app.js",
+  "author": "Sarah Ubabuko <ubabukos@science.regn.net>",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx live-server --port=8000",
+    "build": "npx webpack --config webpack.config.js",
+    "build:watch": "yarn build --watch"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.6.2",
+    "live-server": "^1.2.1",
+    "rxjs": "^6.5.3"
+  }
+}

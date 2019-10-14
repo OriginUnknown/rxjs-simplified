@@ -1,0 +1,17 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "modules": false,
+        "targets": {
+          "browsers": ["last 2 versions", "safari >= 7"]
+        }
+      }
+    ]
+  ],
+  "plugins": ["@babel/plugin-transform-runtime"]
+}
+// @babel/plugin-transform-runtime allows us to use ES6 features such as
+// async/await and any other polyfillable ES6 APIs we'd like to use
+// read: https://babeljs.io/docs/en/babel-plugin-transform-runtime
